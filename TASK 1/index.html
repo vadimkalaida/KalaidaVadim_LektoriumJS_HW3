@@ -6,9 +6,24 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>KalaidaVadim_LektoriumJS_HW3</title>
+  <link rel="stylesheet" href="css/basic.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  <main>
+    <div class="tamagotchi">
+      <img src="img/tamagotchi.gif" alt="Tamagotchi" class="tamagotchi-img">
+      <div class="tamagotchi_buttons">
+        <a href="#" onmousedown="walking()" class="tamagotchi-btn">Walk</a>
+        <a href="#" onmousedown="eating()" class="tamagotchi-btn">Eat</a>
+        <a href="#" onmousedown="drinking()" class="tamagotchi-btn">Drink</a>
+        <a href="#" onmousedown="playing()" class="tamagotchi-btn">Play</a>
+        <a href="#" onmousedown="sleeping()" class="tamagotchi-btn">Sleep</a>
+      </div>
+    </div>
+  </main>
 
   <script src="index.js"></script>
 </body>
