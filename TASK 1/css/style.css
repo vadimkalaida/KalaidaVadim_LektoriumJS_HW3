@@ -52,3 +52,53 @@ main {
 .tamagotchi-btn:active {
   background: #EDEDED;
 }
+
+.actions {
+  width: 650px;
+  height: 450px;
+  border: 3px solid #014F98;
+  border-radius: 15px;
+  background: #C0FFFF;
+  margin-left: 5vh;
+  overflow-y: scroll;
+}
+
+.actions_container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.actions-p {
+  color: #007500;
+  margin-bottom: 0;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.actions-p2 {
+  color: #A51818;
+  margin-bottom: 0;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.actions-p3 {
+  color: #014F98;
+  margin-bottom: 0;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.actions-p4 {
+  color: #A48200;
+  margin-bottom: 0;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.actions-p5 {
+  color: #828282;
+  margin-bottom: 0;
+  font-weight: 800;
+  text-transform: uppercase;
+}
