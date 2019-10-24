@@ -2,19 +2,17 @@ let actions = document.querySelector('#actions');
 
 class Tamagochi {
 
-  constructor(name, health, happines, hungry, thirsty) {
+  constructor(name, health, happiness, hungry, thirsty) {
     this.name = name;
-    this.health = health;
-    this.happiness = happines;
-    this.hungry = hungry;
-    this.thirsty = thirsty;
+    this.health = parseInt(health);
+    this.happiness = parseInt(happiness);
+    this.hungry = parseInt(hungry);
+    this.thirsty = parseInt(thirsty);
   }
   walk() {
     if(this.hungry > -50) {
       if(this.happiness >= 200) {
         console.log(this.name + ' is walking(happiness max, hungry - 10, thirsty - 5)');
-        actionsText.innerHTML = this.name + ' is walking(happiness max, hungry - 10, thirsty - 5)';
-        actions.appendChild(actionsText);
         this.hungry -= 10;
         this.thirsty -= 5;
       } else {
