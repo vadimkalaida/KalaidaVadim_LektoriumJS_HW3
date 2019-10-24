@@ -8,6 +8,7 @@ class Tamagochi {
     this.happiness = parseInt(happiness);
     this.hungry = parseInt(hungry);
     this.thirsty = parseInt(thirsty);
+
   }
   walk() {
     if(this.hungry > -50) {
@@ -159,7 +160,7 @@ class Tamagochi {
 
 let tamagochiNamePrompt = prompt('Tamagochi\'s name:');
 
-let myTamagochi = new Tamagochi(tamagochiNamePrompt, 100, 20, 0, 0);
+let myTamagochi = new Tamagochi(tamagochiNamePrompt, 0, 20, 0, 0);
 
 alert('Hi! My name is ' + tamagochiNamePrompt + ' and I\'m your tamagochi');
 console.log(myTamagochi);
